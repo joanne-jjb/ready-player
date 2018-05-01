@@ -1,5 +1,6 @@
 package net.androidbootcamp.readyplayer;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.net.Uri;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,8 +19,8 @@ public class GameSetup extends AppCompatActivity {
     int numPlayers;
     String output = "";
 
-    Button playMusic;
-    MediaPlayer mpPoco;
+    Button playMusic, orderPizza;
+    MediaPlayer mpMusic;
     int playing;
 
     @Override
@@ -61,28 +63,38 @@ public class GameSetup extends AppCompatActivity {
         });
 
         playMusic = (Button) findViewById(R.id.btnGameMusic);
-        playMusic.setOnClickListener(bPoco);
+        playMusic.setOnClickListener(bMusic);
 
-        mpPoco = new MediaPlayer();
-        mpPoco = MediaPlayer.create(this, R.raw.pocolocosong);
+        mpMusic = new MediaPlayer();
+        mpMusic = MediaPlayer.create(this, R.raw.levels);
         playing = 0;
+
+        orderPizza = (Button) findViewById(R.id.btnPizza);
+        orderPizza.setOnClickListener(bPizza);
     }
 
-    Button.OnClickListener bPoco = new Button.OnClickListener() {
+    Button.OnClickListener bMusic = new Button.OnClickListener() {
         @Override
         public void onClick(View v) {
             switch(playing) {
                 case 0:
-                    mpPoco.start();
+                    mpMusic.start();
                     playing = 1;
-                    playMusic.setText("Pause Un Poco Loco");
+                    playMusic.setText("Pause Music \"Levels\"");
                     break;
                 case 1:
-                    mpPoco.pause();
+                    mpMusic.pause();
                     playing = 0;
-                    playMusic.setText("Play Un Poco Loco");
+                    playMusic.setText("Play Music \"Levels\"");
                     break;
             }
+        }
+    };
+
+    Button.OnClickListener bPizza = new Button.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+                startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("http://deweyspizza.com/")));
         }
     };
 }
