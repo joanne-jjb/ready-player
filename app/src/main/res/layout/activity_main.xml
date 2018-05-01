@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.androidbootcamp.readyplayer.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="359dp"
+        android:layout_height="578dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/txtTile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtGameSelection"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtGameSelection"
+            android:layout_marginTop="17dp"
+            android:text="@string/txtTitle"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            android:contentDescription="@string/txtImage"
+            android:foregroundGravity="center_horizontal"
+            app:srcCompat="@drawable/meeple" />
+
+        <TextView
+            android:id="@+id/txtGameSelection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgLogo"
+            android:text="@string/txtGameSelection"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <Spinner
+            android:id="@+id/inputGames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:entries="@array/txtGames"
+            android:prompt="@string/txtPrompt" />
+
+        <TextView
+            android:id="@+id/txtGameDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnDate"
+            android:layout_marginBottom="219dp"
+            android:text="@string/txtGameDate"
+            android:textSize="25sp"
+            tools:text="@string/txtGameDate" />
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="157dp"
+            android:layout_marginStart="22dp"
+            android:text="@string/btnDate" />
+
+        <TextView
+            android:id="@+id/txtDateSet"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/txtGameDate"
+            android:layout_marginBottom="112dp" />
+
+        <Button
+            android:id="@+id/btnGameSetup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/txtGameDate"
+            android:layout_marginBottom="37dp"
+            android:text="@string/btnSetupGame" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

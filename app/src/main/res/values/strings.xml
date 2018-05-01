@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ready Player</string>
+    <string name="txtInputLabel">Enter Number of Players</string>
+    <string name="radFirstPlayer">Identify First Player</string>
+    <string name="radScorekeeper">Select Game Scorekeeper</string>
+    <string name="txtResultHint">Your Results will Display Here</string>
+    <string name="txtImage">App Logo Image</string>
+    <string name="hint">Enter number here</string>
+    <string name="btnSelect">Select Player(s)</string>
+    <string-array name="txtGames">
+        <item>Select Game</item>
+        <item>Settlers of Catan</item>
+        <item>Codenames</item>
+        <item>Dominion</item>
+    </string-array>
+    <string name="txtPrompt">Select Game</string>
+    <string name="txtSetup">Setup Game</string>
+    <string name="txtEvent">Setup Event</string>
+    <string name="txtPlayerPrompt">Would you like to select the first player or the scorekeeper?</string>
+    <string name="txtGameSelection">Which Game will You Be Playing?</string>
+    <string name="txtGameDate">When Will You Be Playing?</string>
+    <string name="txtTitle">Board Game Day Event Planner</string>
+    <string name="btnDate">Select Date for Board Game Day</string>
+    <string name="btnSetupGame">Click Here to Set Up For Game</string>
+    <string name="btnPlayMusic">Play Background Gaming Music</string>
+</resources>
