@@ -19,16 +19,11 @@ public class GameSetup extends AppCompatActivity {
     int numPlayers;
     String output = "";
 
-    Button playMusic, orderPizza;
-    MediaPlayer mpMusic;
-    int playing;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_setup);
 
-        //inputs
         final EditText players = (EditText) findViewById(R.id.inputNumber);
 
         final RadioButton firstPlayer = (RadioButton) findViewById(R.id.radFirst);
@@ -62,39 +57,14 @@ public class GameSetup extends AppCompatActivity {
             }
         });
 
-        playMusic = (Button) findViewById(R.id.btnGameMusic);
-        playMusic.setOnClickListener(bMusic);
+        Button nextPage = (Button) findViewById(R.id.btnEventSetup);
+        nextPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(GameSetup.this, EventSetup.class));
+            }
+        });
 
-        mpMusic = new MediaPlayer();
-        mpMusic = MediaPlayer.create(this, R.raw.levels);
-        playing = 0;
-
-        orderPizza = (Button) findViewById(R.id.btnPizza);
-        orderPizza.setOnClickListener(bPizza);
     }
 
-    Button.OnClickListener bMusic = new Button.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            switch(playing) {
-                case 0:
-                    mpMusic.start();
-                    playing = 1;
-                    playMusic.setText("Pause Music \"Levels\"");
-                    break;
-                case 1:
-                    mpMusic.pause();
-                    playing = 0;
-                    playMusic.setText("Play Music \"Levels\"");
-                    break;
-            }
-        }
-    };
-
-    Button.OnClickListener bPizza = new Button.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-                startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("http://deweyspizza.com/")));
-        }
-    };
 }

@@ -106,21 +106,14 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnGameMusic"
+            android:id="@+id/btnEventSetup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/btnPizza"
-            android:layout_alignStart="@+id/btnSelect"
-            android:text="@string/btnPlayMusic" />
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/inputNumber"
+            android:layout_marginTop="405dp"
+            android:text="@string/btnEventSetup" />
 
-        <Button
-            android:id="@+id/btnPizza"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="108dp"
-            android:text="@string/btnPizza" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

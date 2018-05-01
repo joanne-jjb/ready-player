@@ -22,6 +22,10 @@
     <string name="txtTitle">Board Game Day Event Planner</string>
     <string name="btnDate">Select Date for Board Game Day</string>
     <string name="btnSetupGame">Click Here to Set Up For Game</string>
-    <string name="btnPlayMusic">Background Music</string>
+    <string name="btnPlayMusic">Play Background Music</string>
     <string name="btnPizza">Order Pizza</string>
+    <string name="btnEventSetup">Click Here to Start the Party!</string>
+    <string name="imgDescription">Dance Party</string>
+    <string name="btnStart">Start Party</string>
+    <string name="btnStop">Stop Party</string>
 </resources>
