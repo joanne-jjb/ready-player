@@ -9,16 +9,17 @@
     <RelativeLayout
         android:layout_width="445dp"
         android:layout_height="948dp"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="6dp"
         tools:layout_editor_absoluteY="0dp">
 
         <EditText
             android:id="@+id/inputNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/btnSelect"
-            android:layout_marginTop="121dp"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="90dp"
             android:ems="10"
             android:gravity="center_horizontal"
             android:hint="@string/hint"
@@ -28,10 +29,9 @@
             android:id="@+id/btnSelect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="85dp"
-            android:layout_marginTop="329dp"
+            android:layout_alignStart="@+id/inputNumber"
+            android:layout_marginTop="291dp"
             android:text="@string/btnSelect"
             android:textSize="22dp"
             tools:text="@string/btnSelect" />
@@ -42,8 +42,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="38dp"
-            android:layout_marginTop="397dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="354dp"
             android:text="@string/txtResultHint"
             android:textSize="22sp" />
 
@@ -53,8 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/btnSelect"
             android:layout_alignParentTop="true"
-            android:layout_marginEnd="-12dp"
-            android:layout_marginTop="67dp"
+            android:layout_marginTop="33dp"
             android:text="@string/txtSetup"
             android:textSize="30sp" />
 
@@ -64,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/result"
-            android:layout_marginTop="175dp">
+            android:layout_marginTop="143dp">
 
             <RadioButton
                 android:id="@+id/radFirst"
@@ -97,11 +96,12 @@
 
         <TextView
             android:id="@+id/txtPlayerPrompt"
-            android:layout_width="303dp"
+            android:layout_width="309dp"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/result"
+            android:layout_alignEnd="@+id/gameGroup"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="185dp"
+            android:layout_marginEnd="-6dp"
+            android:layout_marginTop="150dp"
             android:text="@string/txtPlayerPrompt"
             android:textSize="20sp" />
 
@@ -109,19 +109,17 @@
             android:id="@+id/btnGameMusic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="51dp"
+            android:layout_above="@+id/btnPizza"
+            android:layout_alignStart="@+id/btnSelect"
             android:text="@string/btnPlayMusic" />
 
         <Button
             android:id="@+id/btnPizza"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="392dp"
-            android:layout_marginStart="128dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="108dp"
             android:text="@string/btnPizza" />
     </RelativeLayout>
 
