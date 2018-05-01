@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     c.set(Calendar.YEAR, year);
                     c.set(Calendar.MONTH, monthOfYear);
                     c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
-                    date.setText("Your Board Game Day is set for " + fmtDate.format(c.getTime()) + ". You will be playing " + game + ".");
+                    date.setText("Your Board Game Day is set for " + fmtDate.format(c.getTime()));
                 }
             };
         });

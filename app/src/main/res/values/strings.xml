@@ -5,8 +5,8 @@
     <string name="radScorekeeper">Select Game Scorekeeper</string>
     <string name="txtResultHint">Your Results will Display Here</string>
     <string name="txtImage">App Logo Image</string>
-    <string name="hint">Enter number here</string>
-    <string name="btnSelect">Select Player(s)</string>
+    <string name="hint">Enter # of Players Here</string>
+    <string name="btnSelect">Select Player</string>
     <string-array name="txtGames">
         <item>Select Game</item>
         <item>Settlers of Catan</item>
@@ -23,4 +23,5 @@
     <string name="btnDate">Select Date for Board Game Day</string>
     <string name="btnSetupGame">Click Here to Set Up For Game</string>
     <string name="btnPlayMusic">Play Background Gaming Music</string>
+    <string name="btnPizza">Order Pizza</string>
 </resources>
