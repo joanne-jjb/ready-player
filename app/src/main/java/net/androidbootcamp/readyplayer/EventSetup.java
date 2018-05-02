@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class EventSetup extends AppCompatActivity {
     AnimationDrawable danceAnimation;
@@ -24,11 +27,12 @@ public class EventSetup extends AppCompatActivity {
         ImageView imgFrame=(ImageView)findViewById(R.id.imgDance);
         imgFrame.setBackgroundResource(R.drawable.animation);
         danceAnimation = (AnimationDrawable) imgFrame.getBackground( );
-        Button button1 = (Button) findViewById(R.id.btnDance);
+        final Button button1 = (Button) findViewById(R.id.btnDance);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 danceAnimation.start();
+                button1.setVisibility(View.GONE);
             }
         });
 

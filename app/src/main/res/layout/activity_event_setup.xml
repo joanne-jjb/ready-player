@@ -52,6 +52,16 @@
             tools:layout_editor_absoluteX="113dp"
             tools:layout_editor_absoluteY="436dp" />
 
+        <TextView
+            android:id="@+id/txtGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnDance"
+            android:layout_centerHorizontal="true"
+            android:text="Enjoy your Game!"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="36sp" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
