@@ -12,25 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12be695-51da-442b-ae86-c6b178250256" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/EventSetup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/animation.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dance9.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_event_setup.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -39,12 +20,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/GameSetup.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/GameSetup.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/EventSetup.java" afterPath="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/EventSetup.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_event_setup.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_event_setup.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_game_setup.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_game_setup.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +49,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_event_setup.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_event_setup.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_event_setup.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -81,26 +62,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animation.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/animation.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="EventSetup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/EventSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="354">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
-                <element signature="e#985#1141#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1049#1255#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_game_setup.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_setup.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2138,14 +2135,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_setup.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/GameSetup.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/animation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/EventSetup.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_event_setup.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_setup.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/EventSetup.java" />
       </list>
     </option>
   </component>
@@ -2198,7 +2195,7 @@
               <item name="ReadyPlayer" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="ReadyPlayer" type="1abcf292:AndroidViewProjectNode" />
@@ -2222,8 +2219,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="Nexus_5X_API_27_11" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525212332792" />
+    <property name="device.picker.selection" value="a44ba112" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525219711171" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
   </component>
   <component name="RecentsManager">
@@ -2559,7 +2556,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2577,7 +2573,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25282714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2961,28 +2957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_setup.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/GameSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -2990,19 +2964,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="android-dummy:///Users/buenavej/projects/160/ReadyPlayer/app/Translations Editor">
-      <provider selected="true" editor-type-id="string-resource-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3022,18 +2983,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_event_setup.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/net/androidbootcamp/readyplayer/EventSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="39" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="354">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#985#1141#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1049#1255#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_event_setup.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="android-dummy:///Users/buenavej/projects/160/ReadyPlayer/app/Translations Editor">
+      <provider selected="true" editor-type-id="string-resource-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_setup.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
